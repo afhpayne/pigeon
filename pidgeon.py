@@ -25,6 +25,13 @@
 import os
 import subprocess
 
+# Software Name
+soft_name = "Pidgeon"
+soft_tag = "a simple script to update local git repositories"
+
+# Version
+soft_vers = "0.1.2"
+
 cwd = os.getcwd()
 
 directory_list = []
