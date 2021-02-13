@@ -1,4 +1,4 @@
-#!/bin/env python3
+#!/usr/bin/env python3
 
 # MIT License
 
@@ -30,7 +30,7 @@ soft_name = "Pidgeon"
 soft_tag = "a simple script to update local git repositories"
 
 # Version
-soft_vers = "0.1.2"
+soft_vers = "0.1.3"
 
 cwd = os.getcwd()
 
