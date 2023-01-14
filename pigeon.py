@@ -2,7 +2,7 @@
 
 # MIT License
 
-# Copyright (c) 2020 afhpayne
+# Copyright (c) 2020-2023 afhpayne
 
 # Permission is hereby granted, free of charge, to any person obtaining a copy
 # of this software and associated documentation files (the "Software"), to deal
@@ -26,11 +26,11 @@ import os
 import subprocess
 
 # Software Name
-soft_name = "Pidgeon"
+soft_name = "Pigeon"
 soft_tag = "a simple script to update local git repositories"
 
 # Version
-soft_vers = "0.1.3"
+soft_vers = "0.1.4"
 
 cwd = os.getcwd()
 
@@ -40,7 +40,7 @@ for directory in os.scandir(cwd):
     if os.path.isdir(directory) is True:
         directory_list.append(os.path.abspath(directory))
     directory_list.sort()
-    
+
 for directory in directory_list:
     if os.path.isdir((os.path.join(directory, ".git"))) is True:
         print("\n", str(directory.strip(" ")))
